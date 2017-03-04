@@ -1,0 +1,649 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Istok+Web:400,700);
+
+.block_title{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #000;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.block_title span{
+    display: block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #99a6b1;
+}
+#header{
+    padding: 30px 0px 40px 0px;
+}
+#header .logo{}
+#header .logo a{
+    background: url('../images/logo.png') no-repeat left top;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000;
+    text-decoration: none;
+    padding-left: 95px;
+    padding-top: 6px;
+    display: inline-block;
+    font-weight: 600;
+}
+#header .logo a span{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    color: #000;
+    display: block;
+    margin-top: 6px;
+    font-weight: 400;
+}
+#header .tell{}
+#header .tell{
+    text-align: right;
+}
+#header .tell .phone{
+    display: inline-block;
+    text-align: right;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #19232f;
+}
+#header .tell .phone .inf{    
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: #99a6b1;
+}
+#header .tell a.button {
+    display: inline-block;
+    background: #ff7200;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 18px;
+    max-width: 345px;
+    width: 100%;
+    text-decoration: none;
+}
+#header .tell a.button:hover {
+    background: #002454;
+}
+
+#banner{
+    background: url('../images/line_1.jpg') no-repeat top center;
+    min-height: 350px;
+}
+#banner .title{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 72px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1),0px 2px 0px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+#banner .icon{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+    
+}
+#menu{
+    
+}
+#menu .navbar-default{
+    background: #e9eef3;
+    border: none;
+    border-radius: 0px;
+    margin: 0px;
+}
+#menu{}
+#menu .navbar-brand{
+    display: none;
+}
+#menu .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+#menu .navbar .navbar-collapse {
+    text-align: center;
+}
+#menu .navbar-default .navbar-nav>li>a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    text-transform: uppercase;
+}
+#menu .navbar-default .navbar-nav>li>a:hover{
+    text-decoration: underline;
+}
+
+#line_1{}
+#line_1 .ico{
+    padding-left: 60px;
+    margin-bottom: 30px;
+}
+#line_1 .ico.ico_4{
+    background: url('../images/ico_4.png') no-repeat 0px 5px;
+}
+#line_1 .ico.ico_5{
+    background: url('../images/ico_5.png') no-repeat 0px 5px;
+}
+#line_1 .ico.ico_6{
+    background: url('../images/ico_6.png') no-repeat 0px 5px;
+}
+#line_1 .ico.ico_7{
+    background: url('../images/ico_7.png') no-repeat 0px 5px;
+}
+#line_1 .ico.ico_8{
+    background: url('../images/ico_8.png') no-repeat 0px 5px;
+}
+#line_1 .ico.ico_9{
+    background: url('../images/ico_9.png') no-repeat 0px 5px;
+}
+#line_1 .ico .title{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #19232f;
+    margin-bottom: 6px;
+}
+#line_1 .ico p{
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #19232f;
+}
+
+#line_2{
+    background: url('../images/line_2.jpg') no-repeat top center;
+    min-height: 350px;
+}
+#line_2 .container{
+    position: relative;
+    min-height: 350px;
+}
+#line_2 form{
+    width: 100%;
+    max-width: 770px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#line_2 form input[type=text]{
+    background: #ebf0f7;
+    display: block;
+    width: 100%;
+    border: 1px solid #0e4980;
+    height: 38px;
+    line-height: 38px;
+    padding: 0px 20px 0px 30px;
+}
+#line_2 form input[type=text].ico_10{
+    background: #ebf0f7 url('../images/ico_10.png') no-repeat 10px 10px;
+}
+#line_2 form input[type=text].ico_11{
+    background: #ebf0f7 url('../images/ico_11.png') no-repeat 10px 10px;
+}
+#line_2 form input[type=text].ico_12{
+    background: #ebf0f7 url('../images/ico_12.png') no-repeat 10px 10px;
+}
+#line_2 form a.button{
+    display: block;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    line-height: 66px;
+    border: 7px solid #fff;
+    margin-top: 25px;
+    text-decoration: none;
+}
+#line_2 form a.button span{
+    border-bottom: 1px dashed #fff;
+}
+#line_2 .forminf{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: #fff;
+}
+
+#line_3{}
+#line_3 .item{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#line_3 .item img{
+    max-width: 100%;
+}
+#line_3 .item .title{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #19232f;
+    margin: 13px 0px 7px 0px;
+}
+#line_3 .item p{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 15px;
+    color: #19232f;   
+    max-width: 260px;
+    display: inline-block; 
+}
+#line_3 .item a.button{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #fff;   
+    max-width: 150px;
+    width: 100%;
+    text-decoration: none;
+    display: inline-block;
+    background: #ff7200; 
+    border-radius: 17.5px;
+}
+#line_3 .item a.button:hover{
+    background: #002454;
+}
+#line_4 .slider_1{
+    margin-top: 60px;
+}
+#line_4 .slider_1 .slick-next{
+    right: 0px;
+    height: 100%;
+    width:50px;
+    background: rgba(0,0,0,0.6) url('../images/next.png') no-repeat center center;
+}
+#line_4 .slider_1 .slick-next:hover{
+    background: rgba(0,0,0,0.6) url('../images/next_h.png') no-repeat center center;
+}
+
+#line_5 .slider_2{
+    margin-top: 60px;
+}
+#line_5 .slider_2 .slick-next{
+    background: url('../images/next.png') no-repeat center center;
+    right: -35px;
+}
+#line_5 .slider_2 .slick-next:hover{
+    background: url('../images/next_h.png') no-repeat center center;
+}
+#line_5 .slider_2 .slick-prev{
+    background: url('../images/prev.png') no-repeat center center;
+    left: -35px;
+}
+#line_5 .slider_2 .slick-prev:hover{
+    background: url('../images/prev_h.png') no-repeat center center;
+}
+#line_5 .slider_2 img{
+    margin: 3px;
+}
+
+#line_6{}
+#line_6 .block_title{
+    background: url('../images/block_title_bg.png') repeat-x top center;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    background-size: cover;
+}
+#line_6 .bg{
+    background: url('../images/line_6.jpg') repeat-y top center;
+    min-height: 350px;
+}
+#line_6 .item{
+    background: #fff;
+    border: 5px solid #e9eef3;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+#line_6 .item .item_bg{
+    background:#e9eef3; 
+}
+#line_6 .item .title{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #19232f;
+    text-transform: uppercase;
+}
+#line_6 .item img{
+    margin: 5px 0px;
+}
+#line_6 .item .title a{
+    display: block;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #99a6b1;
+    text-transform: initial;
+}
+#line_6 .item p{
+    margin: 0;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 13px;
+    color: #19232f;
+    text-align: left;
+    padding: 10px;
+    position: relative;
+}
+#line_6 .item p:before{
+    content: '“';
+    font-family: 'Istok Web', sans-serif;
+    font-size: 36px;
+    color: #000;
+    position: absolute;
+    top: 5px;
+    left: -10px;
+}
+#line_6 .item p:after{
+    content: '”';
+    font-family: 'Istok Web', sans-serif;
+    font-size: 36px;
+    color: #000;
+    position: absolute;
+    top: 5px;
+    right: -10px;
+}
+#line_6 .slider_3{
+    padding: 0px 30px;
+}
+#line_6 .slider_3 .col-md-4{
+    padding: 0px 5px;
+}
+#line_6 .slider_3 .item_bg img{
+    display: initial;
+}
+
+#line_6 .slider_3 .slick-next{
+    background: url('../images/nextw.png') no-repeat center center;
+    right: 5px;
+}
+#line_6 .slider_3 .slick-next:hover{
+    background: url('../images/next_h.png') no-repeat center center;
+}
+#line_6 .slider_3 .slick-prev{
+    background: url('../images/prevw.png') no-repeat center center;
+    left: 5px;
+}
+#line_6 .slider_3 .slick-prev:hover{
+    background: url('../images/prev_h.png') no-repeat center center;
+}
+#line_6 .slider_3 .slick-dots{
+    left: 0px;
+    top: -33px;
+}
+
+#footer{
+    padding: 20px 0px;
+}
+#footer .logo a{
+    background: url('../images/logo.png') no-repeat left top;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    padding-left: 95px;
+    padding-top: 6px;
+    display: inline-block;
+    font-weight: 600;
+}
+#footer .logo a span{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    color: #000;
+    display: block;
+    margin-top: 6px;
+    font-weight: 400;
+}
+#footer .menu{
+    text-align: center;
+}
+#footer .menu a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 36px;
+    color: #000;
+    text-transform: uppercase;
+    padding-right: 10px;
+    
+}
+#footer .vk {
+    background: url('../images/vk.png') no-repeat left center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    line-height: 37px;
+    color: #ff7200;
+    padding-left: 34px;
+    display: block;
+    text-align: right;
+}
+#footer .flink{
+    text-align: right;
+}
+#scroller{
+    position: fixed;    
+    /** позиция кнопки scroll to top **/
+    bottom: 30px;   
+    right: 40px;
+    /** картинка кнопки наверх**/
+    background: url('../images/totop.png') no-repeat center center;  
+    width: 51px;
+    height: 51px;
+    cursor: pointer;
+    /** скрываем кнопку в начале **/
+    display:none;
+}
+
+#zvonok{
+    width:300px;
+    padding: 20px;
+    border:7px solid #99a6b1;
+    border-radius: 10px;
+    background: #fff;
+}
+
+#cena{
+    width:300px;
+    padding: 20px;
+    border:7px solid #99a6b1;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.popupform form input[type=text]{
+    background: #ebf0f7;
+    display: block;
+    width: 100%;
+    border: 1px solid #0e4980;
+    height: 38px;
+    line-height: 38px;
+    padding: 0px 20px 0px 30px;
+    margin-bottom: 10px;
+}
+
+.popupform form input[type=text].ico_10{
+    background: #ebf0f7 url('../images/ico_10.png') no-repeat 10px 10px;
+}
+.popupform form input[type=text].ico_11{
+    background: #ebf0f7 url('../images/ico_11.png') no-repeat 10px 10px;
+}
+.popupform form input[type=text].ico_12{
+    background: #ebf0f7 url('../images/ico_12.png') no-repeat 10px 10px;
+}
+.popupform form p{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 10px;
+    color: #99a6b1;
+    margin: 0;
+    text-align: right;
+}
+.popupform form input[type=submit] {
+    display: block;
+    background: #ff7200;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 18px;
+    max-width: 245px;
+    width: 100%;
+    border: none;
+    margin: 10px auto 0px;
+}
+.popupform form input[type=submit]:hover{
+    background: #002454;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Large desktop */
+@media (min-width: 1200px){
+    .container {
+        width: 1030px;
+    }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    #header .tell a.button{
+        max-width: 200px;
+    }
+    #menu .navbar-default .navbar-nav>li>a{
+        font-size: 14px;
+    }
+    #footer .flink{
+        text-align: center;
+    }
+    #footer .flink a{
+        display: inline-block;
+    } 
+    #footer .menu {
+        text-align: right;
+    }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    #line_2 form{
+        margin-top: 60px;
+    }
+    #line_2 form input[type=text]{
+        margin-bottom: 10px;
+    }
+    #header .logo{
+        text-align: center;
+    }
+    #header .tell {
+        text-align: center;
+        margin-top: 20px;
+    }
+    #banner .title{
+        margin-top: 20px;
+    } 
+    #menu .navbar-brand {
+        display: inherit;
+    }  
+    #line_2 form a.button{
+        font-size: 25px;
+    }
+    #banner .icon{
+        width: 33.3%;
+    }
+    #footer .flink{
+        text-align: center;
+    }
+    #footer .flink a{
+        display: inline-block;
+    } 
+    #footer .menu {
+        text-align: right;
+    }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    #header .logo a{
+        font-size: 18px;
+        padding-left: 0;
+        padding-top: 100px;
+        background: url('../images/logo.png') no-repeat top center;    
+    }
+    #header .logo a span{
+        margin: 0;
+    }
+    #header .tell{
+        margin: 0;
+    }
+    #banner .title{
+        font-size: 40px;
+        margin: 0px;
+    }
+    #line_2 form a.button{
+        font-size: 15px;
+    }
+    #footer .logo a{
+        font-size: 18px;
+        padding-left: 0;
+        padding-top: 100px;
+        background: url('../images/logo.png') no-repeat top center;    
+        text-align: center;
+    }
+    #footer .logo a span{
+        margin: 0;
+    }
+    #footer .flink{
+        text-align: center;
+    }
+    #footer .flink a{
+        display: inline-block;
+    }
+}
+
+
